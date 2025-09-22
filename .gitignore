@@ -1,0 +1,101 @@
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+database/data/
+mongo-data/
+redis-data/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# Dependency directories
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker volumes
+docker-volumes/
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.p12
+certificates/
+keys/
+
+# Backup files
+*.bak
+*.backup
+*.sql
+backups/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Security files
+secrets/
+.secrets/
+auth/
+.auth/
+
+# Jenkins
+jenkins_home/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# Ansible
+ansible/group_vars/*/vault.yml
+ansible/host_vars/*/vault.yml
+.vault_pass
+
+# Monitoring data
+prometheus-data/
+grafana-data/
+alertmanager-data/
