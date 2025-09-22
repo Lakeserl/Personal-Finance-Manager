@@ -24,8 +24,6 @@ services:
       - ./backend/.env
     environment:
       DATABASE_URL: ${DATABASE_URL}
-      # MONGO_URL: mongodb://mongo:27017/finance_db
-      # REDIS_URL: redis://redis:6379/0
     depends_on:
       - postgres
     ports:
